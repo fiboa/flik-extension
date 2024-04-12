@@ -1,6 +1,6 @@
 {
   "type": "Feature",
-  "id": "example",
+  "id": "DEBBLI0260100301",
   "bbox": [
     172.91173669923782,
     1.3438851951615003,
@@ -36,7 +36,6 @@
   },
   "properties": {
     "determination_datetime": "2020-01-01T00:00:00Z",
-    "field1": 1,
-    "field2": "abc"
+    "flik": "DEBBLI0260100301"
   }
 }

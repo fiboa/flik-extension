@@ -1,8 +1,9 @@
 $schema: https://fiboa.github.io/schema/v0.1.0/schema.json
 required:
-  - field1
+  - flik
 properties:
-  field1:
-    type: uint8
-  field2:
+  flik:
     type: string
+    minLength: 16
+    maxLength: 16
+    pattern: ^[A-Z]{2}[A-Z0-9]{2}[A-Z0-9]{2}[A-Z0-9]{10}$
