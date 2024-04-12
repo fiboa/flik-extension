@@ -1,12 +1,12 @@
-# Template Extension Specification
+# FLIK Extension Specification
 
-- **Title:** Template
-- **Identifier:** <https://fiboa.github.io/extension-template/v0.1.0/schema.yaml>
-- **Property Name Prefix:** template
+- **Title:** FLIK
+- **Identifier:** <https://fiboa.github.io/flik-extension/v0.1.0/schema.yaml>
+- **Property Name Prefix:** none
 - **Extension Maturity Classification:** Proposal/Candidate/Stable
 - **Owner**: @your-gh-handles @person2
 
-This document explains the Template Extension to the
+This document explains the FLIK Extension to the
 [Field Boundaries for Agriculture (fiboa) Specification](https://github.com/fiboa/specification).
 
 This is the place to add a short introduction.
@@ -26,8 +26,8 @@ The properties in the table below can be used in these parts of fiboa documents:
 
 | Property Name   | Type   | Description |
 | --------------- | ------ | ----------- |
-| template:field1 | string | **REQUIRED**. Describe the required field... |
-| template:field2 | int32  | Describe the field... |
+| field1 | string | **REQUIRED**. Describe the required field... |
+| field2 | int32  | Describe the field... |
 
 ## Contributing
 

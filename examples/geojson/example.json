@@ -36,7 +36,7 @@
   },
   "properties": {
     "determination_datetime": "2020-01-01T00:00:00Z",
-    "template:field1": 1,
-    "template:field2": "abc"
+    "field1": 1,
+    "field2": "abc"
   }
 }
