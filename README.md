@@ -1,6 +1,6 @@
 # FLIK Extension Specification
 
-- **Title:** FLIK
+- **Title:** FLIK (DE)
 - **Identifier:** <https://fiboa.github.io/flik-extension/v0.1.0/schema.yaml>
 - **Property Name Prefix:** none
 - **Extension Maturity Classification:** Proposal
@@ -10,7 +10,7 @@ This document explains the FLIK Extension to the
 [Field Boundaries for Agriculture (fiboa) Specification](https://github.com/fiboa/specification).
 
 The area identifier (FLIK) is a unique identifier key to clearly identify field blocks and similar entities,
-which is mostly used in Germany but can be used internationally.
+which is currently only used in Germany in this way but could be used internationally.
 
 - Examples:
   - [GeoJSON](examples/geojson/)
@@ -27,9 +27,9 @@ The properties in the table below can be used in these parts of fiboa documents:
 
 | Property Name   | Type   | Description |
 | --------------- | ------ | ----------- |
-| flik            | string | **REQUIRED**. The area identifier (FLIK code) is a 16-character string. |
+| flik            | string | **REQUIRED**. The (German) area identifier (FLIK code) is a 16-character string. |
 
-The FLIK identifier consists of:
+IN Germany, the FLIK identifier consists of:
 - 2-letter country code (e.g. `DE` for Germany)
 - 2-letter state code (e.g. `BB` for Branbenburg)
 - 2-letter element type which is assigned on the state level (e.g. `LI`, `LE`, `NF` or `PS`)
