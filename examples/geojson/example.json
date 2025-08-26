@@ -1,4 +1,11 @@
 {
+  "schemas": {
+    "example": [
+      "https://vecorel.org/specification/v0.1.0/schema.yaml",
+      "https://fiboa.org/specification/v0.3.0/schema.yaml",
+      "https://fiboa.org/flik-extension/v0.1.0/schema.yaml"
+    ]
+  },
   "type": "Feature",
   "id": "DEBBLI0260100301",
   "bbox": [
@@ -35,7 +42,8 @@
     ]
   },
   "properties": {
-    "determination_datetime": "2020-01-01T00:00:00Z",
+    "collection": "example",
+    "determination:datetime": "2020-01-01T00:00:00Z",
     "flik": "DEBBLI0260100301"
   }
 }
