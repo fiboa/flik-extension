@@ -1,0 +1,11 @@
+$schema: https://vecorel.org/sdl/v0.2.0/schema.json
+required:
+  - flik
+collection:
+  flik: false
+properties:
+  flik:
+    type: string
+    minLength: 16
+    maxLength: 16
+    pattern: ^[A-Z]{2}[A-Z0-9]{2}[A-Z0-9]{2}[A-Z0-9]{10}$
